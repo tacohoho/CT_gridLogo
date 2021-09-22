@@ -1,0 +1,36 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    grid-template-rows: auto;
+    grid-template-areas: "adidas apple amazon beats";
+    margin-top: 10vh;
+}
+
+.adidas {
+    grid-area: adidas;
+}
+
+.apple {
+    grid-area: apple;
+}
+
+.amazon {
+    grid-area: amazon;
+}
+
+.beats {
+    grid-area: beats;
+}
+
+.adidas, .apple, .amazon, .beats {
+    justify-self: center;
+    align-self: center;
+    padding: 3em;
+    max-height: 50vh;
+    border: 1px solid gray;
+}
+
+div img {
+    width: 100%;
+    height: 100%;
+}
