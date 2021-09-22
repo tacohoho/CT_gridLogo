@@ -1,0 +1,51 @@
+.nav-brand {
+    padding-left: 100px;
+    font-family: "Roboto";
+}
+
+.nav-button {
+    font-size: 80%;
+    text-decoration: none;
+    color: white;
+    padding: auto 1px;
+}
+
+.theater-img {
+    width:100%
+}
+
+.center-text {
+    position: absolute;
+    top: 250px;
+    left: 250px;
+    width: 100%;
+    color: white;
+    font-size: 50px;
+    font-family: "Roboto";
+}
+
+.date {
+    background-color: lightgray;
+    border-style: solid;
+    border-width: thin;
+    font-family: "Roboto";
+    margin: 100px auto 50px;
+    padding-left: 50px;
+}
+
+.show-img {
+    width: 200px;
+    height: 150px;
+}
+
+.button {
+    background-color: orange;
+    color: white;
+    border-style: solid;
+    border-width: thin;
+    font-family: "Roboto";
+}
+
+.title {
+    font-size: 30px;
+}
